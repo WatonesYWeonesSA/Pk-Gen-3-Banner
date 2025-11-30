@@ -42,8 +42,23 @@ A compliant attribution includes, for example (non-exhaustive):
 
 The attribution must appear within the audiovisual footage (not only in the
 description, title, tags or metadata) and must be reasonably visible for a
-non-trivial portion of the content (for example, as a persistent watermark or
-as a clearly visible card at the beginning or end of the video).
+non-trivial portion of the content. At minimum, the attribution must:
+
+(i) be displayed on-screen for a cumulative duration of at least two (2)
+seconds within the Monetized Gameplay Content; and
+
+(ii) occupy a visual area whose bounding box is no smaller than ten percent
+(10%) of the video frame’s height and ten percent (10%) of its width at the
+time it is shown; and
+
+(iii) be rendered in a fully opaque (100% opacity), solid color with sufficient
+contrast against the underlying background to be clearly legible to an average
+viewer, and not be obscured by other overlays, HUD elements, or visual effects.
+
+The attribution may appear as a persistent watermark, as a clearly visible
+card at the beginning or end of the video, or in any other form that meets
+the minimum duration, size, opacity, and contrast requirements above and
+remains clearly legible to an average viewer.
 
 3. Enforcement
 
