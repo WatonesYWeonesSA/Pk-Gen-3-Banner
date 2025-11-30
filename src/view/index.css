@@ -1,0 +1,36 @@
+.pk_background {
+    width: 121%;
+    height: 100px;
+    transform: skew(20deg);
+    border: 2px solid rgb(225, 224, 225);
+
+    overflow: hidden; /* Para evitar que el contenido se salga del borde */
+}
+
+.pk_background > * {
+    transform: skew(-20deg);
+    padding: 10px;
+}
+
+.pk_img {
+    background-image: url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 120%;
+}
+
+.name{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 25px;
+}
+
+h6 {
+    color: white; /* Color del texto */
+    font-weight: 900;
+    -webkit-text-stroke: 1px black; /* Grosor y color del borde */
+}
+
