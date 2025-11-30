@@ -1,3 +1,5 @@
+Watones y Weones S.A. Gameplay License (MIT-based)
+
 MIT License
 
 Copyright (c) 2025 watones y weones S.A.
@@ -7,10 +9,63 @@ of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+furnished to do so, subject to the following conditions and the additional
+gameplay condition set out below:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+ADDITIONAL CONDITION FOR MONETIZED GAMEPLAY CONTENT
+
+1. Definitions
+
+For the purposes of this License:
+
+(a) "Gameplay Content" means any audiovisual content (including but not limited
+to livestreams, VODs, clips, shorts or edited videos) that shows or makes use
+of the Software or any derivative work of the Software in the context of
+playing, displaying or interacting with a video game.
+
+(b) "Monetized Gameplay Content" means Gameplay Content that directly or
+indirectly generates revenue for the creator, including but not limited to
+platform monetization (ads, memberships, subscriptions), sponsorships,
+donations, or any other form of commercial exploitation associated with the
+content.
+
+2. Attribution Requirement
+
+Any Monetized Gameplay Content that uses, displays or otherwise benefits from
+the Software or any derivative work of the Software MUST include an on-screen
+credit during the video itself, clearly visible to viewers, crediting
+"watones y weones S.A." as the creators of the tool.
+
+A compliant attribution includes, for example (non-exhaustive):
+
+- "Creado por watones y weones S.A."
+- "Powered by watones y weones S.A."
+
+The attribution must appear within the audiovisual footage (not only in the
+description, title, tags or metadata) and must be reasonably visible for a
+non-trivial portion of the content (for example, as a persistent watermark or
+as a clearly visible card at the beginning or end of the video).
+
+3. Enforcement
+
+Failure to comply with the Attribution Requirement for Monetized Gameplay
+Content constitutes a material breach of this License and an infringement of
+the Licensor’s copyright in the Software and its audiovisual presentation.
+
+In such cases, the copyright holder (watones y weones S.A.) reserves the
+right to enforce its rights, including but not limited to:
+
+- issuing copyright takedown notices (including DMCA or equivalent notices)
+  to the relevant platform(s), and/or
+- requesting removal or blocking of the infringing content, and/or
+- requesting reallocation, suspension or retention of monetization on the
+  infringing content to the extent permitted by the platform’s policies and
+  applicable law.
+
+DISCLAIMER
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
