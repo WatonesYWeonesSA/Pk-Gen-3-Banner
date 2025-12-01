@@ -1,13 +1,17 @@
 import os
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+from flask import Flask, jsonify
+from src.website import website
+from src.data_manager import get_sav_data
+import configparser
 
-from website import website
-from pokemon_data import get_party_data
-from Gen3Save.Gen3Save import Gen3Save
+# Gestion del Ini
+config = configparser.ConfigParser()
+config.read('user_data.ini')
 
-from flask import Flask, send_file, jsonify
+sav_route = config['Config']['sav_route']
+sav_gen = int(config['Config']['sav_gen'])
 
+# Gestion del Flask
 app = Flask(__name__)
 
 @app.after_request
@@ -23,7 +27,9 @@ def index():
 
 @app.route("/API/Game")
 def api():
-    return jsonify(get_party_data())
+    return jsonify(
+        get_sav_data(sav_route, sav_gen)
+        )
 
 #L
 def main():

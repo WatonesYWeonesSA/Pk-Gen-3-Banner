@@ -1,3 +1,4 @@
+# Se encarga de retornar la vista inicial en conjunto con los scripts generados
 def website():
     def import_file(format):
         with open(f'src/view/index.{format}', 'r') as file:
