@@ -40,7 +40,6 @@ Si tu save está raro, la tarjeta queda rara. Acá no maquillamos nada.
 
 ## 🌐 ¿Cómo se muestra todo esto?
 
-El visor **no exporta archivos HTML**.  
 Todo se sirve dinámicamente desde un **backend Flask** que actualiza la interfaz en tiempo real.
 
 Puedes verlo en tu navegador en:
